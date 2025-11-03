@@ -23,23 +23,25 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import classification_report
 ```
 
-📈 결과 요약
+---
 
-모델 정확도: 약 0.98
+## 📈 결과 요약
+- 모델 정확도: 약 0.98
+- Classification Report: 모든 클래스에서 Precision, Recall, F1-score > 0.9
+- 결론: Logistic Regression은 스케일링 후 빠르고 안정적으로 수렴하며, Wine 데이터셋 분류에 효과적임
 
-Classification Report: 모든 클래스에서 Precision, Recall, F1-score > 0.9
+---
 
-결론: Logistic Regression은 스케일링 후 빠르고 안정적으로 수렴하며, Wine 데이터셋 분류에 효과적임
+## 🚀 확장 아이디어
+- Decision Tree, Random Forest, SVM 등 다른 모델과 성능 비교
+- PCA를 이용한 차원 축소 후 정확도 변화 분석
+- Confusion Matrix 시각화
 
-🚀 확장 아이디어
+---
 
-Decision Tree, Random Forest, SVM 등 다른 모델과 성능 비교
-
-PCA를 이용한 차원 축소 후 정확도 변화 분석
-
-Confusion Matrix 시각화
-
-📂 파일 구성
+## 📂 파일 구성
+```
 AI_Assignment2_WineClassification/
 ├── AI-Assignment2-Classification.ipynb   # 전체 코드 및 결과
 └── README.md                             # 과제 요약 문서
+```

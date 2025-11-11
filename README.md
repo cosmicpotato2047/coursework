@@ -27,7 +27,7 @@
 
 ---
 
-###🔹 [AI Assignment 3: Mall Customer Clustering](./AI_Assignment3_MallCustomerClustering)
+### 🔹 [AI Assignment 3: Mall Customer Clustering](./AI_Assignment3_MallCustomerClustering)
 - **내용**: 쇼핑몰 고객 데이터를 이용해 K-Means 및 계층적 군집화를 수행하고, 고객의 소비 성향을 분석.
 - **핵심 포인트**:
   - Annual Income(연간 소득)과 Spending Score(소비 점수) 변수 선택

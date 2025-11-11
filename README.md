@@ -27,6 +27,17 @@
 
 ---
 
+###🔹 [AI Assignment 3: Mall Customer Clustering](./AI_Assignment3_MallCustomerClustering)
+- **내용**: 쇼핑몰 고객 데이터를 이용해 K-Means 및 계층적 군집화를 수행하고, 고객의 소비 성향을 분석.
+- **핵심 포인트**:
+  - Annual Income(연간 소득)과 Spending Score(소비 점수) 변수 선택
+  - StandardScaler를 이용한 Z-score 정규화
+  - Elbow Method로 최적의 클러스터 수 탐색
+  - K-Means 학습 및 Silhouette Score로 군집 품질 평가
+- **결과 요약**: 3개의 주요 고객 그룹(고소득·고소비 / 중간소득·중간소비 / 저소득·저소비) 도출, 시각화를 통해 소비 패턴과 고객 세분화 가능성 확인
+
+---
+
 ## ⚙️ 환경 정보
 - Python 3.12  
 - Jupyter Notebook  
